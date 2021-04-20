@@ -1,7 +1,9 @@
 double t, v; int r;
-main(){
+main()
+{
 r=0;
-while (r){
+while (r)
+{
 v=9.81*t;
 }
 }
