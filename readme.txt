@@ -1,4 +1,4 @@
-FallVelocity 1.2
+FallVelocity 1.3
 ----------------
 
 A first attempt to write a program for a scientific simulation, because simulations are one of the main goals of this "progress"- project these small programs build up.
@@ -9,32 +9,33 @@ So far just the fall acceleration of the Earth is used, 9.81 m/s^2.
 Also the precision is limited to 2 digits.
 
 
-1  double t, v; int r;
-2  main()
-3  {
-4  r=0;
-5  while (r)
-6  {
-7  v=9.81*t;
-8  }
-9  }
+1   double t, v; int r;
+2 
+3   main()
+4   {
+5   r=0;
+6   while (r)
+7   {
+8   v=9.81*t;
+9   }
+10  }
 
 
 ATTENTION:
 
-When this program is used without a debugger, the while loop can easily run infinitely.
-Small infinite loops like this one can heat up the processor while running.
+When this program is used without a debugger, the while- loop easily can run infinitely.
+Small infinite loops like this one can heat up the processor when running.
 
-Thus, make shure to use a debugger and set breakpoints as mentioned below when using this program.
+Thus make shure to use a debugger and set breakpoints as mentioned below when using this program.
 
 
 Usage:
 
 The usage and result examination has to be done with a debugger.
 
-First set a breakpoint at line 3.
+First set a breakpoint at line 4.
 
-Set another breakpoint at line 8.
+Set another breakpoint at line 9.
 
 Run the program.
 
@@ -56,6 +57,11 @@ If the program should terminate, set variable r to 0.
 
 Version history
 ---------------
+
+Version 1.3
+
+Inserted an empty line between the variable definitions and the main()- function to furthermore beautify the code and make it easier to read and maintain.
+
 
 Version 1.2
 

@@ -1,4 +1,5 @@
 double t, v; int r;
+
 main()
 {
 r=0;
