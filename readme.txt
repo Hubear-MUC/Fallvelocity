@@ -1,62 +1,35 @@
-FallVelocity 1.3
+FallVelocity 2.0
 ----------------
 
-A first attempt to write a program for a scientific simulation, because simulations are one of the main goals of this "progress"- project these small programs build up.
+The FallVelocity program is one of the first simulations done within within this project of regaining and gaining knowledge in developing (scientific) software.
 
-The velocity of mass falling down will be calculated.
+This version of the program got equipped with a full user interaction to enable working with it without the usage of a debugger to examine the results.
 
-So far just the fall acceleration of the Earth is used, 9.81 m/s^2.
-Also the precision is limited to 2 digits.
+Just invoke the program.
 
+The program calculates the speed of a body dropped down.
 
-1   double t, v; int r;
-2 
-3   main()
-4   {
-5   r=0;
-6   while (r)
-7   {
-8   v=9.81*t;
-9   }
-10  }
+It asks you for the time and calculates the dropping speed the body got after this time is elapsed.
+
+The program is written as an application, so it asks for another amount of time after every calculation.
 
 
-ATTENTION:
-
-When this program is used without a debugger, the while- loop easily can run infinitely.
-Small infinite loops like this one can heat up the processor when running.
-
-Thus make shure to use a debugger and set breakpoints as mentioned below when using this program.
+IMPORTANT: The program can be quit by entering 0 as the time- value.
 
 
-Usage:
+Unfortunately there was no code space left to implement a message for this on the screen.
 
-The usage and result examination has to be done with a debugger.
-
-First set a breakpoint at line 4.
-
-Set another breakpoint at line 9.
-
-Run the program.
-
-Set the variables as follows:
-
-  r (for "run") to 1 if the program should continue for further calculations
-                   0 if the program should stop and terminate
-				   
-  t to the time passed from the mass starting to fall
-  
-Examine the result in variable v
-
-Continue the program execution for a new entry of a value for the time t.
-
-If the program should terminate, set variable r to 0.
 
 
 
 
 Version history
 ---------------
+
+Version 2.0
+
+Implementation of user interaction to make this program usable without running it with a debugger.
+
 
 Version 1.3
 

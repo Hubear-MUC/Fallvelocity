@@ -1,10 +1,5 @@
-double t, v; int r;
-
+#include "dincl.h"
+double t, v;
 main()
-{
-r=0;
-while (r)
-{
-v=9.81*t;
-}
+{t=1;while(t!=0){t=in();v=9.81*t;out(v);}
 }
