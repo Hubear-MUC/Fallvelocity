@@ -3,12 +3,17 @@ A little program to calculate the fall velocity by time of fall.
 
 See readme.txt for details
 
-Codespace: 60 bytes.
+Code extent: 84 bytes.
 
 -----------
 
 Version history:
 ----------------
+
+Version 2.0
+
+Implementation of user interaction to make this program usable without running it with a debugger.
+
 
 Version 1.3
 
